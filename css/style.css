@@ -6,3 +6,58 @@
     Normal: #034C8C
     Escuro: #023859
 */
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #023859;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#login {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    */
+
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.404);
+}
+
+section#login > div#image {
+    display: block;
+
+    background: #023859 url(../images/image-login.jpg) center center no-repeat ;
+    background-size: cover;
+
+    height: 200px;
+}
+
+section#login > div#form {
+    display: block;
+
+    padding: 10px;
+}
