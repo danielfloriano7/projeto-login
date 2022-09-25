@@ -41,15 +41,23 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#image {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
         background-position: top right;
     }
 
     section#login > div#form {
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
-    }    
+    } 
+    
+    div#form > h1 {
+        font-size: 1.9em;
+    }
+    
+    div#form > p {
+        font-size: 1.1em;
+    }
 }
