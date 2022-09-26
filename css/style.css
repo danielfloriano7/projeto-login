@@ -73,3 +73,67 @@ div#form > h1 {
 div#form > p {
     font-size: 0.8em;
 }
+
+form > div.campo {
+    background-color: #023859;
+    display: block;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 35px;
+    margin: auto;
+    background-color: #035AA6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .3s;
+    line-height: 0;
+}
+
+form > input[type=submit]:hover {
+    background-color: #023859;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 90%;
+    height: 35px;
+    padding-top: 5px;
+    margin: 5px auto 0;
+    background-color: #fff;
+    color: #023859;
+    border: 1px solid #035AA6;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color .3s;
+
+    position: relative;
+}
+
+form > a.botao:hover {
+    background-color: #007be7;
+}
+
+
+form > a.botao > i {
+    font-size: 1.3em; 
+    text-indent: 6px;
+    line-height: 0;
+
+    position: absolute;
+    top: 17px;
+}
