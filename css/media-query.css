@@ -34,8 +34,8 @@ Grandes telas: acima de 1200px
     div.campo > input {
         
         font-size: 1em;
-        width: calc(100% - 44.6px);
-        transform: translateY(-10px);
+        width: calc(100% - 44.7px);
+        transform: translateY(-9.7px);
     }
 }
 
@@ -75,6 +75,6 @@ Grandes telas: acima de 1200px
         
         font-size: 1em;
         width: calc(100% - 44.6px);
-        transform: translateY(-10px);
+        transform: translateY(-9.7px);
     }
 }

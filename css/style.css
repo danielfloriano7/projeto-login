@@ -79,9 +79,10 @@ form > div.campo {
     border: 2px solid #023859;
     display: block;
     width: 90%;
-    height: 40px;
+    height: 41px;
     border-radius: 8px;
-    margin: 5px auto;
+    margin: 4px auto;
+    
 }
 
 div.campo > label {
@@ -100,15 +101,16 @@ div.campo > i {
 div.campo > input {
     background-color: #57a2e4;
     font-size: .7em;
-    width: calc(100% - 44.6px);
-    height: 100%;
+    width: calc(100% - 44.8px);
+    height: 96%;
     
     border: 0;
     border-radius: 8px;
     padding: 4px;
 
     outline: none;
-    transform: translateY(-12px);
+    transform: translateY(-11.6px);
+
 }
 
 
