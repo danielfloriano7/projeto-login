@@ -76,16 +76,41 @@ div#form > p {
 
 form > div.campo {
     background-color: #023859;
+    border: 2px solid #023859;
     display: block;
     width: 90%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px auto;
 }
 
 div.campo > label {
     display: none;
 }
+
+div.campo > i {
+    color: #fff;
+    /* background-color: black; */
+    font-size: 1.9em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+div.campo > input {
+    background-color: #57a2e4;
+    font-size: 1em;
+    width: calc(100% - 44.6px);
+    height: 100%;
+    transform: translateY(-10px);
+    border: 0;
+    border-radius: 8px;
+    padding: 4px;
+
+    outline: none;
+}
+
+
 
 form > input[type=submit] {
     display: block;
